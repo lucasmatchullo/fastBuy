@@ -1,0 +1,9 @@
+C:\Projetos\fastBuy\fastBuy.Repositorio\bin\Debug\netstandard2.0\fastBuy.Repositorio.deps.json
+C:\Projetos\fastBuy\fastBuy.Repositorio\bin\Debug\netstandard2.0\fastBuy.Repositorio.dll
+C:\Projetos\fastBuy\fastBuy.Repositorio\bin\Debug\netstandard2.0\fastBuy.Repositorio.pdb
+C:\Projetos\fastBuy\fastBuy.Repositorio\obj\Debug\netstandard2.0\fastBuy.Repositorio.csprojAssemblyReference.cache
+C:\Projetos\fastBuy\fastBuy.Repositorio\obj\Debug\netstandard2.0\fastBuy.Repositorio.csproj.CoreCompileInputs.cache
+C:\Projetos\fastBuy\fastBuy.Repositorio\obj\Debug\netstandard2.0\fastBuy.Repositorio.AssemblyInfoInputs.cache
+C:\Projetos\fastBuy\fastBuy.Repositorio\obj\Debug\netstandard2.0\fastBuy.Repositorio.AssemblyInfo.cs
+C:\Projetos\fastBuy\fastBuy.Repositorio\obj\Debug\netstandard2.0\fastBuy.Repositorio.dll
+C:\Projetos\fastBuy\fastBuy.Repositorio\obj\Debug\netstandard2.0\fastBuy.Repositorio.pdb
