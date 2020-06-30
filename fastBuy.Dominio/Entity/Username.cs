@@ -2,7 +2,7 @@
 
 namespace fastBuy.Dominio.Entity
 {
-    public class User : Entity
+    public class Username : Entity
     {   
         public int Id{ get; set; }
         public string Email { get; set; }

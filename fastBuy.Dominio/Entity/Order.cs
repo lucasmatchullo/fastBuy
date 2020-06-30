@@ -8,7 +8,7 @@ namespace fastBuy.Dominio.Entity
     {
         public int Id { get; set; }
         public DateTime DateRequest { get; set; }
-        public int UserId { get; set; }
+        public int UsernameId { get; set; }
         public string CompleteAddress { get; set; }
         public int NumberAddress { get; set; }
         public DateTime DeliveryDate { get; set; }
