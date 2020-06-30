@@ -2,7 +2,7 @@
 
 namespace fastBuy.Dominio.Entity
 {
-    public class User
+    public class User : Entity
     {   
         public int Id{ get; set; }
         public string Email { get; set; }
@@ -13,5 +13,14 @@ namespace fastBuy.Dominio.Entity
         // A user can have One or Many orders
         public ICollection<Order> Orders { get; set; }
 
+        public override void Validate()
+        {
+            if (string.IsNullOrEmpty(Email))
+                AddAlert("Email not informed!!");
+
+            if (string.IsNullOrEmpty(Password))
+                AddAlert("Password not informed!!");
+
+        }
     }
 }

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace fastBuy.Dominio.Entity
 {
-    public class Order
+    public class Order : Entity
     {
         public int Id { get; set; }
         public DateTime DateRequest { get; set; }
@@ -19,5 +19,19 @@ namespace fastBuy.Dominio.Entity
         public PaymentMethod PaymentMethod { get; set; }
         public ICollection<ItemOrder> ItensOrder { get; set; }
 
+        public override void Validate()
+        {
+            ClearValidationMessage();
+
+            if (!ItemOrder.Any())
+                AddAlert("Order item cannot be empty!!");
+
+            if (string.IsNullOrEmpty(CEP)) 
+                AddAlert("CEP cannot be empty!!");
+
+            if (PaymentFormId == 0)
+                AddAlert("Form of payment not informed!!");
+
+        }
     }
 }
